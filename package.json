@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node srv/index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.727.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0"
+  }
+}
